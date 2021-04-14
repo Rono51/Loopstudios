@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100%;
+    font-size: 15px;
+}
+
+:root {
+    --primary--white: hsl(0, 0%, 100%);
+    --primary--black: hsl(0, 0%, 0%); 
+    --primary--darkgray: hsl(0, 0%, 55%);
+    --primary--verydark: hsl(0, 0%, 41%); 
+    --font--family--1: 'Josefin Sans', sans-serif;
+    --font--family--2: 'Alata', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-image: url(/images/desktop/image-hero.jpg);
+    width: 100%;
+    height: 650px;
+}
+
+.header .background__nav {
+    width: 100%;
+    height: auto;
+}
+
+.logo img{
+    display: inline;
+    background: none;
+    margin: 70px 100px;
+}
+
+.logo img::selection {
+    background: transparent;
+}
+
+.menu__nav {
+    margin-right: 125px;
+}
+
+.menu__nav ul li {
+    float: right;
+    display: inline-block;
+    position: relative;
+    bottom: 104px;
+    margin-right: 25px;
+}
+
+.menu__nav ul li a {
+    color: var(--primary--white);
+    font-family: var(--font--family--2);
+    font-size: 1rem;
+}
+
+.menu__nav ul li a:hover {
+    border-bottom: 2px solid var(--primary--white);
+}
+
+.experiences {
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 45%;
+    border: 2px solid var(--primary--white);
+}
+
+.experiences h3 {
+    font-family: var(--font--family--1);
+    color: var(--primary--white);
+    font-weight: lighter;
+    font-size: 3.5rem;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/* FIN DE HEADER */
+
+.img__section  {
+    margin: 150px 100px;
+    position: relative;
+}
+
+.section__paragraph {
+    width: 576px;
+    height: 350px;
+    background: var(--primary--white);
+    position: absolute;
+    float: right;
+    left: 680px;
+    top: 1000px;
+}
+
+.section__paragraph h3 {
+
+    font-family: var(--font--family--1);
+    font-size: 3.1rem;
+    font-weight: lighter;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.section__paragraph p {
+    margin-top: 15px;
+    font-family: var(--font--family--2);
+    color: var(--primary--darkgray);
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+/* FIN SECTION */
+
+.main {
+
+}
+
+.subtitle__main div {
+    display: inline-block;
+}
+
+.title__main {
+    margin-left: 100px;
+}
+
+.title__main h3 {
+    color: var(--primary--black);
+    font-size: 2.8rem;
+    font-family: var(--font--family--1);
+    font-weight: lighter;
+    margin-top: 8px;
+}
+
+.boton--right {
+    float: right;
+    text-align: center;
+    margin-right: 120px;
+}
+
+.boton--right a div {
+    width: 150px;
+    border: 2px solid var(--primary--black);
+    font-family: var(--font--family--2);
+    font-size: 1.1rem;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+
+.conteiner__albums--1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.conteiner__albums--1 div{
+    margin: 15px;
+    display: inline-block;
+    width: 256px;
+    height: 450px;
+}
+
+.earth {
+    background-image: url(/images/desktop/image-deep-earth.jpg);
+}
+
+.arcade {
+    background-image: url(/images/desktop/image-night-arcade.jpg); 
+}
+
+.soccer {
+    background-image: url(/images/desktop/image-soccer-team.jpg);
+}
+
+.grid {
+    background-image: url(/images/desktop/image-grid.jpg);
+}
+
+.conteiner__albums--2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner__albums--2 div {
+    margin: 15px;
+    display: inline-block;
+    width: 256px;
+    height: 450px;
+}
+
+.above {
+    background-image: url(/images/desktop/image-from-above.jpg);
+}
+
+.boreals {
+    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+}
+
+.curiosoty {
+    background-image: url(/images/desktop/image-curiosity.jpg);
+}
+
+.fisheye {
+    background-image: url(/images/desktop/image-fisheye.jpg);
+}
+
+.conteiner__albums--1 div a h3 {
+    padding-top: 360px;
+    color: var(--primary--white);
+    font-family: var(--font--family--1);
+    font-weight: lighter;
+    font-size: 2.0rem;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.conteiner__albums--2 div a h3 {
+    padding-top: 360px;
+    color: var(--primary--white);
+    font-family: var(--font--family--1);
+    font-weight: lighter;
+    font-size: 2.0rem;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+/* FIN DE MAIN */
+
+.footer {
+    margin-top: 150px;
+    height: 230px;
+    background: var(--primary--black);
+}
+
+.logo__footer {
+    position: inherit;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.logo__footer::selection {
+    background: transparent;
+}
+
+.nav__redes--logos {
+    float: right;
+    margin-top: 60px;
+    margin-right: 120px;
+}
+
+.nav__redes--logos img {
+    margin-left: 15px;
+}
+
+.footer__nav {
+    margin: 70px 80px 35px;
+}
+
+.footer__nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.footer__nav ul li h4 {
+    color: var(--primary--white);
+    font-family: var(--font--family--1);
+    letter-spacing: 1px;
+}
+
+.footer__nav ul li h4:hover {
+    border-bottom: 3px solid var(--primary--white);
+}
+
+.copy {
+    float: right;
+    color: var(--primary--white);
+    position: relative;
+    bottom: 17px;
+    right: 31px;
+}
